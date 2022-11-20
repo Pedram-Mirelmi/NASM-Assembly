@@ -20,3 +20,5 @@ This repo contains some HWs and project about NASM assembly language
 -   #### seriFp: to read the `n` and then `x` and then calculate and output the result of the sum: sum\[k=0, n\] (1/k!)*(x^k)
 ## HW5:
 -   #### lightenImage: to read a path to a directory `path` and then the number `n`. Then read all the images with the format of `bmp` in that directory and lighten them `n` degrees and save them to `path/edited_photos`. It is necessesary to use parallel `nasm` instruction (like `vmovdqa` or `vpaddusb` or `vpsubusb`) while lightening the pixels of the image
+## Projects:
+-   `assembler` and `disassembler` written in `Python` and `Assembly`
