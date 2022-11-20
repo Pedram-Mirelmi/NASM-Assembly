@@ -12,10 +12,11 @@ This repo contains some HWs and project about NASM assembly language
 -   #### reverseBit: to read a number in decimal representation and output the 64bit revered binary representation
 -   #### countOne: to read a number in decimal representation and output the number of `1`s in the binary represenatation
 -   #### countOneM: to read an `i` and a `j` and a string `s` and count the `1`s in the memory in which `s` is located from index `i` to index `j`
+## HW3
 -   #### QuickSort: to read a size `n` and `n` numbers after if(the array elements each at a new line) and then sort the array and output it
 -   #### binarySearch: to read a sorted array like the `QuickSort` problem. Then read number `q` which is the number of questions and then read `q` numbers each at a new line and output the index of that number in the array -if is present- and `NaN` if not
-## HW3:
+## HW4:
 -   #### minDifFp: to read an array of floating point numbers like `QuickSort` problem and then find the two number with the minimum difference
 -   #### seriFp: to read the `n` and then `x` and then calculate and output the result of the sum: sum\[k=0, n\] (1/k!)*(x^k)
-## HW4:
+## HW5:
 -   #### lightenImage: to read a path to a directory `path` and then the number `n`. Then read all the images with the format of `bmp` in that directory and lighten them `n` degrees and save them to `path/edited_photos`. It is necessesary to use parallel `nasm` instruction (like `vmovdqa` or `vpaddusb` or `vpsubusb`) while lightening the pixels of the image
